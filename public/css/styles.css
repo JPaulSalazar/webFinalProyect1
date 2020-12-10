@@ -86,7 +86,8 @@ body {
 
 .subMainTheMost {
   text-align: center;
-  position: relative; }
+  position: relative;
+  background-color: #ffffff; }
   .subMainTheMost h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
@@ -165,6 +166,21 @@ body {
     font-weight: 700;
     margin-top: 133px;
     margin-bottom: 130px; }
+  .subMainHappy a {
+    width: 280px;
+    border: 2px solid black;
+    padding: 18px 40px 18px 40px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 62px;
+    margin-bottom: 140px; }
 
 .subMainHappy h2::after {
   content: "";
@@ -177,19 +193,21 @@ body {
   background-color: black; }
 
 .boxes {
-  width: 700px;
-  float: left; }
+  width: 698px;
+  float: left;
+  border: 1px solid #eae9e7; }
   .boxes h3 {
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
     font-weight: 700px;
     margin-right: 50px;
-    margin-left: 101px; }
+    margin-left: 101px;
+    margin-top: 52px; }
   .boxes p {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: 500px;
-    margin-bottom: 61px;
+    margin-bottom: 72px;
     margin-right: 50px;
     margin-left: 101px; }
 
@@ -199,5 +217,34 @@ body {
   font-weight: 400;
   padding-bottom: 61px; }
 
-.box-diferent p {
-  margin-bottom: 85px; }
+.box-diferent1 p {
+  margin-left: 68px; }
+
+.box-diferent2 p {
+  margin-bottom: 72px; }
+
+.mainLove {
+  background-image: url("../../img/3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white; }
+
+.mainLove-p1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  padding-top: 215px;
+  margin: 0 auto;
+  width: 823px;
+  text-align: center;
+  margin-bottom: 68px; }
+
+.mainLove-p2 {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 145px; }
+  .mainLove-p2 a {
+    color: white; }
