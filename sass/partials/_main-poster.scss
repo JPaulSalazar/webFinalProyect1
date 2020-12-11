@@ -5,62 +5,62 @@
   position: relative;
   h2{
     margin: 0;
-    font-size: 60px;
+    font-size: 3.75rem;
     font-family: $raleway;
     font-weight: 700;
-    padding-top:90px;
-    margin-bottom: 127px;
+    padding-top:6.4%;
+    margin-bottom: 9.1%;
   }
 }
 .subMainClass h2::after{
   content: "";
   position: absolute;
-  left: 0px;
-  top: 188px;
-  height:2px;
-  width: 83px;
+  left: 0%;
+  top: 14%;
+  height:0.3%;
+  width: 5.9%;
   font-weight: bold;
   background-color: $black;
 }
 .subMainClass1{
-  background-image: url('../../img/4.jpg');
+  background-image: url('../img/4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 560px;
+  width: 40%;
   height: 764px;
   float: left;
   p{
-    margin-top: 0px;
+    margin-top: 0%;
     font-family: $oswald;
     font-weight: bold;
-    font-size:70px;
+    font-size:4.375rem;
     text-align: center;
     color: $white;
-    padding-top: 183px;
-    margin-bottom: 140px;
+    padding-top: 32.67%;
+    margin-bottom: 25%;
   }
 }
 .subMain-buy-a{
   font-family: $monserrat;
   color: $white;
   text-decoration:none;
-  font-size: 20px;
+  font-size: 1.25rem;
   float: left;
-  letter-spacing: 4px;
+  letter-spacing: 0.25rem;
 }
 .subMain-buy-share{
-  height: 0px;
-  width: 0px;
-  padding-left: 250px;
+  height: 0%;
+  width: 0%;
+  padding-left: 44.6%;
   float: left;
   img{
     display: block;
   }
 }
 .subMain-buy{
-  width: 488px;
-  margin: 0 auto;
-  padding-top: 44px;
+  width: 87.1%;
+  margin: 0% auto;
+  padding-top: 9%;
   display: none;
 }
 .subMainClass1:hover div{
@@ -70,52 +70,54 @@
   box-shadow: 0px 0px 50px 50px $shadow;
 }
 .subMainGroup{
-  width: 740px;
+  width: 52.8%;
+  float: left;
+  margin-left: 7%;
 }
 .subMainClass2{
-  width: 740px;
+  width: 100%;
   height: 370px;
-  background-image: url('../../img/5.jpg');
+  background-image: url('../img/5.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 53px;
+  margin-bottom: 7.2%;
 }
 .subMainClass2-p{
   font-family: $times;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-style: italic;
   font-weight: bold;
-  margin-left: 77px;
-  margin-top: 0px;
-  padding-top:78px;
-  margin-bottom: 18px;
+  margin-left: 10.4%;
+  margin-top: 0%;
+  padding-top:10.5%;
+  margin-bottom: 2.4%;
 }
 .subMainClass2-p2{
   font-family: $play;
-  font-size: 19px;
-  margin-left: 77px;
-  margin-top: 0px;
-  margin-bottom: 100px;
+  font-size: 1.187rem;
+  margin-left: 10.4%;
+  margin-top: 0%;
+  margin-bottom: 13.5%;
 }
 .subMain-buy-a2{
   font-family: $monserrat;
   color: $white;
   text-decoration:none;
-  font-size: 20px;
+  font-size: 1.25rem;
   float: left;
-  letter-spacing: 4px;
+  letter-spacing: 0.25rem;
 }
 .subMain-buy-share2{
-  height: 0px;
-  width: 0px;
-  padding-left: 350px;
+  height: 0%;
+  width: 0%;
+  padding-left: 47.2%;
   float: left;
   img{
     display: block;
   }
 }
 .subMain-buy2{
-  margin-left: 77px;
+  margin-left: 10.4%;
   display: none;
 }
 .subMainClass2:hover div{
@@ -124,45 +126,41 @@
 .subMainClass2:hover{
   box-shadow: 0px 0px 50px 50px $shadow;
 }
-.subMainGroup{
-  float: left;
-  margin-left: 100px;
-}
 .subMainClass3{
-  width: 331px;
+  width: 44.7%;
   height: 340px;
-  background-image: url('../../img/6.jpg');
+  background-image: url('../img/6.jpg');
   float:left;
   background-repeat: no-repeat;
 }
 .subMainClass3 p{
   margin-top: 0;
   font-family: $squada;
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 2.65rem;
+  line-height: 2.65rem;
   text-align: center;
-  padding-top: 35px;
-  margin-bottom:190px;
+  padding-top: 10.6%;
+  margin-bottom:57.4%;
 }
 .subMain-buy-a3{
   font-family: $monserrat;
   color: $white;
   text-decoration:none;
-  font-size: 20px;
+  font-size: 1.25rem;
   float: left;
-  letter-spacing: 4px;
+  letter-spacing: 0.25rem;
 }
 .subMain-buy-share3{
-  height: 0px;
-  width: 0px;
+  height: 0%;
+  width: 0%;
   float: left;
-  padding-left:30px;
+  padding-left:9%;
   img{
     display: block;
   }
 }
 .subMain-buy3{
-  margin-left:30px;
+  margin-left:9%;
   display: none;
 }
 .subMainClass3:hover div{
@@ -172,48 +170,48 @@
   box-shadow: 0px 0px 50px 50px $shadow;
 }
 .subMainClass4{
-  width: 331px;
+  width: 44.7%;
   height: 340px;
-  background-image: url('../../img/7.jpg');
+  background-image: url('../img/7.jpg');
   float:left;
-  margin-left: 78px;
+  margin-left: 10.5%;
   background-repeat: no-repeat;
 }
 .subMainClass4-p1{
   font-family: $lato;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 1.875rem;
   margin-bottom: 0px;
   text-align: center;
-  margin-top: 160px;
+  margin-top: 31.6%;
 }
 .subMainClass4-p2{
   font-family: $lato;
   font-weight: 900;
-  font-size: 37px;
-  margin-top: 0px;
+  font-size: 2.457rem;
+  margin-top: 0%;
   text-align: center;
-  margin-bottom:60px;
+  padding-bottom: 26.1%;
 }
 .subMain-buy-a4{
   font-family: $monserrat;
   color: $white;
   text-decoration:none;
-  font-size: 20px;
+  font-size: 1.25rem;
   float: left;
-  letter-spacing: 4px;
+  letter-spacing: 0.25%;
 }
 .subMain-buy-share4{
-  height: 0px;
-  width: 0px;
+  height: 0%;
+  width: 0%;
   float: left;
-  padding-left:30px;
+  padding-left:9%;
   img{
     display: block;
   }
 }
 .subMain-buy4{
-  margin-left:30px;
+  margin-left:9%;
   display: none;
 }
 .subMainClass4:hover div{
@@ -225,10 +223,10 @@
 .subMain-a{
   font-weight: bold;
   text-align: center;
-  margin-top: 100px;
-  padding-bottom: 116px;
+  margin-top: 7.14%;
+  padding-bottom: 8.28%;
   a{
-    width: 280px;
+    width: 20%;
     border: 2px solid $black;
     padding: 18px 40px 18px 40px;
     font-size: 20px;

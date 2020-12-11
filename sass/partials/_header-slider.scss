@@ -1,56 +1,56 @@
 .logo{
   h1{
-    margin:0px;
+    margin:0;
     display: block;
   }
   a{
     display: block;
     text-decoration: none;
     font-family: $monserrat;
-    letter-spacing: 6px;
-    font-size: 30px;
+    letter-spacing: 0.375rem;
+    font-size: 1.875rem;
     color: $white;
     padding: 29px 20px 29px 20px;
   }
   background-color: $black;
   width: 200px;
   float: left;
-  margin-top: 50px;
-  margin-left: 99px;
-  margin-right: 949px;
+  margin-top: 3.6%;
+  margin-left: 7.1%;
+  margin-right: 67.8%;
 }
 .menu{
   width: 54px;
   border-top: solid 4px $white;
   border-bottom: solid 4px $white;
   float: left;
-  margin-top: 58px;
+  margin-top: 4.2%;
   a{
     display: block;
     text-decoration: none;
     font-family: $monserrat;
-    letter-spacing: 2px;
-    font-size: 15px;
+    letter-spacing: 0.125rem;
+    font-size: 0.937rem;
     color: $white;
     padding: 8px 0px 8px 0px;
   }
 }
 
 .headder-logo{
-  margin-bottom: 200px;
+  margin-bottom: 14.3%;
 }
 .header-text{
-  width: 710px;
+  width: 50.8%;
   text-align: center;
-  margin-left: 608px;
-  margin-bottom: 220px;
+  margin-left: 43.4%;
+  margin-bottom: 15.71%;
 }
 .header-text-smile{
   display: block;
   font-family: $raleway;
-  font-size: 220px;
-  letter-spacing: 20px;
-  margin: 0;
+  font-size: 12rem;
+  letter-spacing: 1.25rem;
+  margin: 0%;
   font-weight: 100;
   color: $white;
 }
@@ -58,19 +58,24 @@
   display: block;
   font-family: $raleway;
   font-weight: bold;
-  font-size:64px;
+  font-size:4rem;
   margin: 0;
-  letter-spacing: 5px;
+  letter-spacing: 0.312rem;
   color: $white;
 }
 .headder-seccion{
-  background-image: url('../../img/1.jpg');
+  background-image: url('../img/1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 .header-points{
-  margin-bottom: 115px;
+  max-width: 185px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 13.21%;
   img{
+    max-width: 100%;
+    width: 100%;
     display: block;
     margin: 0 auto;
   }

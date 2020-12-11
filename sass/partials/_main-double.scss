@@ -1,39 +1,32 @@
-.mainDouble{
-  margin: 0 auto;
-  img{
-    float: left;
-  }
-}
 .mainDouble-text{
   text-align: left;
-  font-size: 36px;
+  font-size: 2.25rem;
   background-color: $salmon;
   width: 50%;
   float: left;
   img{
     display: block;
-    padding-left: 250px;
-    padding-bottom: 79px;
-    margin: 0 auto;
+    padding-left: 26%;
+    padding-bottom: 12.5%;
   }
 }
 .mainDouble-p1{
   font-family: $raleway;
-  width: 576px;
+  width: 60.6%;
   font-weight: 700;
-  padding-top:144px;
+  padding-top:15.2%;
   padding-left: 250px;
   margin: 0 auto;
   margin-left: 0px;
 }
 .mainDouble-p2{
-  padding-left: 250px;
+  padding-left: 26.3%;
   font-family: $raleway;
   font-weight: 300;
 }
 .mainDouble-img{
   width: 50%;
-  background-image: url('../../img/2.jpg');
+  background-image: url('../img/2.jpg');
   height: 636px;
   background-size: cover;
   float: left;
