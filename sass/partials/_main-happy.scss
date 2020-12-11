@@ -2,20 +2,20 @@
   position: relative;
   h2{
     font-size: 60px;
-    font-family: 'Raleway', sans-serif;
+    font-family: $raleway;
     font-weight: 700;
     margin-top:133px;
     margin-bottom: 130px;
   }
   a{
     width: 280px;
-    border: 2px solid black;
+    border: 2px solid $black;
     padding: 18px 40px 18px 40px;
     font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $monserrat;
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: $black;
     border-radius:5px;
     display: block;
     margin: 0 auto;
@@ -25,8 +25,8 @@
   }
 }
 .subMainHappy a:hover{
-  color: white;
-  background-color: black;
+  color: $white;
+  background-color: $black;
 }
 .subMainHappy h2::after{
   content: "";
@@ -36,14 +36,14 @@
   height:2px;
   width: 83px;
   font-weight: bold;
-  background-color: black;
+  background-color: $black;
 }
 .boxes{
   width: 698px;
   float: left;
-  border: 1px solid #eae9e7;
+  border: 1px solid $gray-light;
   h3{
-    font-family: 'Raleway', sans-serif;
+    font-family: $raleway;
     font-size: 30px;
     font-weight: 700px;
     margin-right: 50px;
@@ -51,7 +51,7 @@
     margin-top: 52px;
   }
   p{
-    font-family: 'Raleway', sans-serif;
+    font-family: $raleway;
     font-size: 20px;
     font-weight: 500px;
     margin-bottom: 72px;
@@ -60,7 +60,7 @@
   }
 }
 .i{
-  font-family: 'Raleway', sans-serif;
+  font-family: $raleway;
   font-size: 20px;
   font-weight: 400;
   padding-bottom: 61px;

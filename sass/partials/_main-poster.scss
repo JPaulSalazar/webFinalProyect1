@@ -1,12 +1,12 @@
 .mainClass{
-  background-color: #f3f4f5;
+  background-color:$gray-medium ;
 }
 .subMainClass{
   position: relative;
   h2{
     margin: 0;
     font-size: 60px;
-    font-family: 'Raleway', sans-serif;
+    font-family: $raleway;
     font-weight: 700;
     padding-top:90px;
     margin-bottom: 127px;
@@ -20,7 +20,7 @@
   height:2px;
   width: 83px;
   font-weight: bold;
-  background-color: black;
+  background-color: $black;
 }
 .subMainClass1{
   background-image: url('../../img/4.jpg');
@@ -31,17 +31,18 @@
   float: left;
   p{
     margin-top: 0px;
-    font-family: 'Oswald', sans-serif;
+    font-family: $oswald;
     font-weight: bold;
     font-size:70px;
     text-align: center;
-    color: white;
+    color: $white;
     padding-top: 183px;
+    margin-bottom: 140px;
   }
 }
 .subMain-buy-a{
-  font-family: 'Montserrat', sans-serif;
-  color: white;
+  font-family: $monserrat;
+  color: $white;
   text-decoration:none;
   font-size: 20px;
   float: left;
@@ -66,7 +67,7 @@
   display: block;
 }
 .subMainClass1:hover{
-  box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.116);
+  box-shadow: 0px 0px 50px 50px $shadow;
 }
 .subMainGroup{
   width: 740px;
@@ -80,7 +81,7 @@
   margin-bottom: 53px;
 }
 .subMainClass2-p{
-  font-family: 'Times New Roman', Times, serif;
+  font-family: $times;
   font-size: 36px;
   font-style: italic;
   font-weight: bold;
@@ -90,15 +91,15 @@
   margin-bottom: 18px;
 }
 .subMainClass2-p2{
-  font-family: 'Playfair Display', serif;
+  font-family: $play;
   font-size: 19px;
   margin-left: 77px;
   margin-top: 0px;
   margin-bottom: 100px;
 }
 .subMain-buy-a2{
-  font-family: 'Montserrat', sans-serif;
-  color: white;
+  font-family: $monserrat;
+  color: $white;
   text-decoration:none;
   font-size: 20px;
   float: left;
@@ -121,7 +122,7 @@
   display: block;
 }
 .subMainClass2:hover{
-  box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.116);
+  box-shadow: 0px 0px 50px 50px $shadow;
 }
 .subMainGroup{
   float: left;
@@ -136,7 +137,7 @@
 }
 .subMainClass3 p{
   margin-top: 0;
-  font-family: 'Squada One', cursive;
+  font-family: $squada;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
@@ -144,8 +145,8 @@
   margin-bottom:190px;
 }
 .subMain-buy-a3{
-  font-family: 'Montserrat', sans-serif;
-  color: white;
+  font-family: $monserrat;
+  color: $white;
   text-decoration:none;
   font-size: 20px;
   float: left;
@@ -168,7 +169,7 @@
   display: block;
 }
 .subMainClass3:hover{
-  box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.116);
+  box-shadow: 0px 0px 50px 50px $shadow;
 }
 .subMainClass4{
   width: 331px;
@@ -179,7 +180,7 @@
   background-repeat: no-repeat;
 }
 .subMainClass4-p1{
-  font-family: 'Lato', sans-serif;
+  font-family: $lato;
   font-weight: 700;
   font-size: 30px;
   margin-bottom: 0px;
@@ -187,7 +188,7 @@
   margin-top: 160px;
 }
 .subMainClass4-p2{
-  font-family: 'Lato', sans-serif;
+  font-family: $lato;
   font-weight: 900;
   font-size: 37px;
   margin-top: 0px;
@@ -195,8 +196,8 @@
   margin-bottom:60px;
 }
 .subMain-buy-a4{
-  font-family: 'Montserrat', sans-serif;
-  color: white;
+  font-family: $monserrat;
+  color: $white;
   text-decoration:none;
   font-size: 20px;
   float: left;
@@ -219,7 +220,7 @@
   display: block;
 }
 .subMainClass4:hover{
-  box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.116);
+  box-shadow: 0px 0px 50px 50px $shadow;
 }
 .subMain-a{
   font-weight: bold;
@@ -228,18 +229,18 @@
   padding-bottom: 116px;
   a{
     width: 280px;
-    border: 2px solid black;
+    border: 2px solid $black;
     padding: 18px 40px 18px 40px;
     font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $monserrat;
     text-decoration: none;
     display: block;
-    color: black;
+    color: $black;
     border-radius: 5px;
     margin: 0 auto;
   }
 }
 .subMain-a a:hover{
-  color: white;
-  background-color: black;
+  color: $white;
+  background-color: $black;
 }

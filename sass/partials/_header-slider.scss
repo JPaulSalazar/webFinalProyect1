@@ -6,13 +6,13 @@
   a{
     display: block;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $monserrat;
     letter-spacing: 6px;
     font-size: 30px;
-    color: white;
+    color: $white;
     padding: 29px 20px 29px 20px;
   }
-  background-color: black;
+  background-color: $black;
   width: 200px;
   float: left;
   margin-top: 50px;
@@ -21,17 +21,17 @@
 }
 .menu{
   width: 54px;
-  border-top: solid 4px white;
-  border-bottom: solid 4px white;
+  border-top: solid 4px $white;
+  border-bottom: solid 4px $white;
   float: left;
   margin-top: 58px;
   a{
     display: block;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $monserrat;
     letter-spacing: 2px;
     font-size: 15px;
-    color: white;
+    color: $white;
     padding: 8px 0px 8px 0px;
   }
 }
@@ -47,21 +47,21 @@
 }
 .header-text-smile{
   display: block;
-  font-family: 'Raleway', sans-serif;
+  font-family: $raleway;
   font-size: 220px;
   letter-spacing: 20px;
   margin: 0;
   font-weight: 100;
-  color: white;
+  color: $white;
 }
 .header-text-it{
   display: block;
-  font-family: 'Raleway', sans-serif;
+  font-family: $raleway;
   font-weight: bold;
   font-size:64px;
   margin: 0;
   letter-spacing: 5px;
-  color: white;
+  color: $white;
 }
 .headder-seccion{
   background-image: url('../../img/1.jpg');
