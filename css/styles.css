@@ -362,7 +362,6 @@ body {
   margin-bottom: 14.3%; }
 
 .header-text {
-  width: 50.8%;
   text-align: center;
   margin-left: 43.4%;
   margin-bottom: 15.71%; }
@@ -768,7 +767,7 @@ body {
   text-decoration: none;
   font-size: 1.25rem;
   float: left;
-  letter-spacing: 0.25%; }
+  letter-spacing: 0.25rem; }
 
 .subMain-buy-share4 {
   height: 0%;
@@ -910,3 +909,103 @@ button:hover {
       display: block; }
   .footer2 li + li {
     margin-left: 1%; }
+
+@media (max-width: 1023px) {
+  .logo {
+    margin-right: 61.8%; }
+  .header-text {
+    margin-left: 3.4%; }
+  .mainTheMost-p2::after {
+    top: 48.1%; }
+  .mainDouble-text {
+    width: 100%;
+    float: none; }
+  .mainDouble-img {
+    width: 100%;
+    float: none; }
+  .mainDouble-p1 {
+    text-align: center;
+    padding-left: 19.5%; }
+  .mainDouble-p2 {
+    margin-left: 10%; }
+  .mainDouble-text img {
+    padding-left: 46.5%; }
+  .subMainClass h2::after {
+    top: 8%;
+    height: 0.1%; }
+  .subMainClass1 {
+    width: 50%;
+    float: none;
+    margin: 0% auto;
+    margin-bottom: 7.2%; }
+  .subMainGroup {
+    width: 70%;
+    float: none;
+    margin: 0% auto; }
+  .subFooter1Colum {
+    padding-right: 30%; }
+  .shop {
+    padding-right: 0%;
+    padding-left: 9%;
+    padding-bottom: 2%; }
+  .contact {
+    padding-right: 21%; }
+  .subFooter1 {
+    padding-left: 7%; }
+  .footer2 p {
+    float: none;
+    text-align: center;
+    padding-top: 2.7%;
+    margin-bottom: 2.7%;
+    margin-right: 0%; }
+  .fb {
+    margin-left: 35%; }
+  .footer2 {
+    padding-bottom: 5%; } }
+
+@media (max-width: 767px) {
+  .mainDouble-p2 {
+    margin-left: 7%; }
+  .logo {
+    margin-right: 50.8%; }
+  .header-text {
+    margin-left: 1.4%; }
+  .header-text p + p {
+    padding-left: 0%;
+    text-align: center; }
+  .mainTheMost-p2::after {
+    top: 43.1%; }
+  .boxes {
+    width: 100%; }
+  .subMainHappy h2::after {
+    top: 6%; }
+  .subMainClass1 {
+    width: 75%; }
+  .subMainGroup {
+    width: 100%; }
+  .shop {
+    padding-right: 0%;
+    padding-left: 0%;
+    padding-bottom: 0%; }
+  .subFooter1Colum {
+    float: none;
+    padding-right: 0%; }
+  .subFooter1 {
+    padding-left: 0%;
+    text-align: center; }
+  .subFooter1Colum-form {
+    float: none; }
+  input {
+    width: 50%; }
+  button {
+    width: 34%;
+    margin: 0%;
+    display: inline; }
+  .subFooter1Colum li {
+    padding-bottom: 5.6%; }
+  .subFooter1Colum h3 {
+    padding-bottom: 6%; }
+  .subFooter1Colum-form p {
+    padding-bottom: 7.8%; }
+  .subFooter1Colum-form h3 {
+    padding-bottom: 5.2%; } }
