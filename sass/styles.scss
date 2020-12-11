@@ -1,13 +1,21 @@
+//normalize
 @import "./config/normalize.scss";
+//variables
 @import "./config/global.scss";
+//estilos generales
 @import "./partials/general.scss";
+//headder
 @import "./partials/header-slider.scss";
+//main
 @import "./partials/main-most.scss";
 @import "./partials/main-double.scss";
 @import "./partials/main-happy.scss";
 @import "./partials/main-love.scss";
 @import "./partials/main-poster.scss";
+//footer
 @import "./partials/footer1.scss";
 @import "./partials/footer2.scss";
+//breakpoint de tablet
 @import "./points/tablet";
+//breakpoint de mobile
 @import "./points/mobile";

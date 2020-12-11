@@ -1,19 +1,24 @@
+//font size para el rem
 html{
   font-size: 16px;
 }
+//elimina los bordes sobrantes
 body{
   margin: 0;
 }
+//clearfix para limpiar los floats
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
+//wrapper del ancho de la pantalla
 .wrapper{
   max-width: 1903px;
   width: 100%;
   margin: 0 auto;
 }
+//wrapper interno
 .sub-wrapper{
   max-width: 1400px;
   width: 100%;
