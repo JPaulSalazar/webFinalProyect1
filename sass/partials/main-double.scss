@@ -1,0 +1,40 @@
+.mainDouble{
+  margin: 0 auto;
+  img{
+    float: left;
+  }
+}
+.mainDouble-text{
+  text-align: left;
+  font-size: 36px;
+  background-color: #ffeae2;
+  width: 50%;
+  float: left;
+  img{
+    display: block;
+    padding-left: 100px;
+    padding-bottom: 79px;
+    margin: 0 auto;
+  }
+}
+.mainDouble-p1{
+  font-family: 'Raleway', sans-serif;
+  width: 576px;
+  font-weight: 700;
+  padding-top:144px;
+  padding-left: 100px;
+  margin: 0 auto;
+  margin-left: 0px;
+}
+.mainDouble-p2{
+  padding-left: 100px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+.mainDouble-img{
+  width: 50%;
+  background-image: url('../../img/2.jpg');
+  height: 645px;
+  background-size: cover;
+  float: left;
+}

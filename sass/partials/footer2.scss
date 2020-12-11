@@ -1,0 +1,29 @@
+.footer2{
+  background-color: #f2f4f5;
+  p{
+    float: left;
+    margin-right: 351px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-top: 38px;
+    margin-bottom: 38px;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    list-style: none;
+    display: block;
+    float: left;
+    margin-top: 38px;
+    img{
+      display: block;
+    }
+  }
+  li+li{
+    margin-left: 32px;
+  }
+}

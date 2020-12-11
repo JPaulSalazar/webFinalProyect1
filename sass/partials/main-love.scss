@@ -1,0 +1,30 @@
+.mainLove{
+  background-image: url('../../img/3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.mainLove-p1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  padding-top: 215px;
+  margin: 0 auto;
+  width: 823px;
+  text-align: center;
+  margin-bottom: 68px;
+}
+.mainLove-p2{
+  font-size:20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 145px;
+  a{
+    color: white;
+  }
+}
+.mainLove-p2 a:hover{
+  color: black;
+}

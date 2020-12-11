@@ -1,0 +1,77 @@
+.subMainHappy{
+  position: relative;
+  h2{
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-top:133px;
+    margin-bottom: 130px;
+  }
+  a{
+    width: 280px;
+    border: 2px solid black;
+    padding: 18px 40px 18px 40px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border-radius:5px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 62px;
+    margin-bottom: 140px;
+  }
+}
+.subMainHappy a:hover{
+  color: white;
+  background-color: black;
+}
+.subMainHappy h2::after{
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 98px;
+  height:2px;
+  width: 83px;
+  font-weight: bold;
+  background-color: black;
+}
+.boxes{
+  width: 698px;
+  float: left;
+  border: 1px solid #eae9e7;
+  h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700px;
+    margin-right: 50px;
+    margin-left: 101px;
+    margin-top: 52px;
+  }
+  p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+    margin-bottom: 72px;
+    margin-right: 50px;
+    margin-left: 101px;
+  }
+}
+.i{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 61px;
+}
+.box-diferent1{
+  p{
+    margin-left: 68px;
+  }
+}
+.box-diferent2{
+  p{
+    margin-bottom: 72px;
+  }
+}
