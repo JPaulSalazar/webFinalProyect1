@@ -910,6 +910,18 @@ button:hover {
   .footer2 li + li {
     margin-left: 1%; }
 
+@media (max-width: 1598px) {
+  .mainDouble-img {
+    width: 100%;
+    float: none; }
+  .mainDouble-text {
+    width: 100%;
+    float: none; }
+  .mainDouble-p2 {
+    padding-left: 250px; }
+  .mainDouble-text img {
+    padding-left: 250px; } }
+
 @media (max-width: 1023px) {
   .logo {
     margin-right: 61.8%; }
@@ -965,7 +977,7 @@ button:hover {
 
 @media (max-width: 767px) {
   .mainDouble-p2 {
-    margin-left: 7%; }
+    margin-left: -1%; }
   .logo {
     margin-right: 50.8%; }
   .header-text {
